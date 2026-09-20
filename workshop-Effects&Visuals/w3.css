@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 36px;
+  background: #eef2ff;
+}
+.scene {
+  width: 360px;
+  min-height: 280px;
+  padding: 42px;
+  background: linear-gradient(135deg, #2563eb, #14b8a6);
+  border-radius: 22px;
+}
+.glass-panel {
+  width: 260px;
+  padding: 26px;
+  background: rgb(255, 255, 255, 0.36);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.36);
+  border-radius: 18px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.18);
+}
+.glass-panel h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+.glass-panel p {
+  line-height: 1.7;
+}

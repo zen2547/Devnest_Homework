@@ -1,0 +1,25 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap'); */
+
+* {
+  font-family: 'Playpen Sans Thai';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.notice {
+  border: 2px solid #2563eb;
+  width: 420px;
+  padding: 20px 24px;
+  background-color: #eff6ff;
+}
+.notice_title {
+  margin: 0 0 8px;
+  color: #1d4ed8;
+}
+.notice_body {
+  margin: 0;
+  color: #1e3a8a;
+}
+.notice last-child {
+  font-family: 'Sulphur Point';
+}

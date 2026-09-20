@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.tag.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 8px;
+  border: 1px solid #cbd5e1;
+  text-decoration: none;
+  color: #475569;
+}
+.tag:hover {
+  background-color: gray;
+}
+.tag.active:hover {
+  background: #2563eb;
+}

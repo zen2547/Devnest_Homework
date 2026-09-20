@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  display: block;
+  color: white;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  margin: 0;
+  background: #f5f7fb;
+}
+a{
+    text-decoration: none;
+}
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.brand {
+  color: #1f5eff;
+  font-weight: 800;
+  font-size: 20px;
+  text-decoration: none;
+}
+.cta {
+  padding: 9px 16px;
+  color: white;
+  background: #1f5eff;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.nav {
+  color: #46556d;
+  font-size: 14px;
+  cursor: pointer;
+  gap: 20px;
+  align-items: center;
+}

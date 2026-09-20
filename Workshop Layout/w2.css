@@ -1,0 +1,29 @@
+.article {
+  width: 360px;
+  padding: 16px;
+  background: white;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.8;
+}
+.photo{
+    float: left;
+    width: 96px;
+    height: 96px;
+    margin: 0 14px 8px 0;
+    background: #bfdbfe;
+    border: 2px solid #3b82f6;
+    border-radius: 8px;
+    font-size: 30px;
+    line-height: 85px;
+    text-align: center;
+    
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 1px;
+}
